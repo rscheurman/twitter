@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+  
   resources :tweets
   get 'pages/home'
   get 'pages/profile'
