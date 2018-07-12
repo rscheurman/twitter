@@ -15,6 +15,15 @@
  *= require bootstrap
  */
 
+.vertical-line {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+ }
+
  .footer {
      text-align: center;
  }
